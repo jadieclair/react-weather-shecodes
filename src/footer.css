@@ -1,0 +1,13 @@
+footer {
+  border-top: 1px solid #f9f7fe;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15px;
+  color: rgba(13, 13, 13, 0.4);
+}
+
+a {
+  color: #544a7f;
+  text-decoration: none;
+}
