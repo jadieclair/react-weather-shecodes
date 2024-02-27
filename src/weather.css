@@ -1,3 +1,33 @@
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 40px;
+}
+
+.search-input,
+.search-button {
+  background-color: #eaedf2;
+  color: #413283;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+.search-input {
+  width: 75%;
+}
+
+::placeholder {
+  color: #413283;
+  opacity: 0.5;
+}
+
+.search-button {
+  margin-left: 10px;
+}
+
 main {
   padding: 20px 0;
 }
@@ -17,14 +47,9 @@ main {
   margin: 0;
 }
 .current-details {
-  color: rgba(39, 33, 66, 0.4);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-}
-
-.current-details strong {
-  color: #f65282;
 }
 
 .current-temperature-icon {
@@ -35,12 +60,12 @@ main {
 }
 
 .current-temperature-value {
-  font-size: 80px;
+  font-size: 40px;
   font-weight: bold;
 }
 
 .current-temperature-unit {
-  font-size: 28px;
+  font-size: 18px;
   position: relative;
   top: -38px;
 }
