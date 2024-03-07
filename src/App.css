@@ -1,14 +1,9 @@
-body {
-  font-family: "Roboto", sans-serif;
-}
-
 .weather-app {
   position: relative;
-  display: block;
-  max-width: 500px;
+  max-width: 600px;
   min-height: 400px;
-  margin: 60px auto;
-  padding: 40px;
+  margin: 50px auto 10px auto;
+  padding: 30px;
   border-radius: 10px;
   background-image: url("./media/bg-img.jpg");
   background-repeat: no-repeat;

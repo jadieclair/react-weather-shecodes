@@ -1,6 +1,6 @@
-header {
-  border-bottom: 1px solid #f9f7fe;
-  padding-bottom: 40px;
+.header-container {
+  display: block;
+  margin: 0 auto;
 }
 
 .search-input,
@@ -16,7 +16,7 @@ header {
 }
 
 .search-input {
-  width: 75%;
+  width: 65%;
 }
 
 ::placeholder {
@@ -25,11 +25,8 @@ header {
 }
 
 .search-button {
-  margin-left: 10px;
-}
-
-main {
-  padding: 20px 0;
+  margin-left: 20px;
+  width: 18%;
 }
 
 .current-temperature {
@@ -37,15 +34,20 @@ main {
 }
 
 .current-weather {
+  color: rgb(175, 171, 171);
   display: flex;
   justify-content: space-between;
+  font-family: "Encode Sans", sans-serif;
+  font-weight: 500;
 }
 
 .current-city {
   font-size: 30px;
   font-weight: 900;
-  margin: 0;
+  font-family: "Courgette", cursive;
+  letter-spacing: 2px;
 }
+
 .current-details {
   font-size: 16px;
   font-weight: 400;
