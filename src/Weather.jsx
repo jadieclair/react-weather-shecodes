@@ -9,19 +9,19 @@ export default function Weather(props) {
           <h1 className="current-city" id="current-city">
             {props.seeData.city}
           </h1>
-          <CustomDate date={showData.date} />
+          <CustomDate date={props.seeData.date} />
         </div>
-        <div className="col-4">
-          <p className="current-details text-capitalize">
+        <div className="col-4 mt-3">
+          <div className="current-details text-capitalize">
             <br />
-            <div>{props.seeData.description}</div>
+            {props.seeData.description}
             <div>
               Humidity: <strong>{props.seeData.humidity}%</strong>
             </div>
             <div>
               Wind: <strong>{props.seeData.wind}km/h</strong>
             </div>
-          </p>
+          </div>
         </div>
 
         <div className="col-4 current-temperature">
