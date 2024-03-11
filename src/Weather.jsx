@@ -30,7 +30,7 @@ export default function Weather(props) {
 
         <div className="col-4 current-temperature">
           <span className="current-temperature-icon">
-            <WeatherIcon code={props.seeData.iconUrl} />
+            <WeatherIcon code={props.seeData.icon} />
           </span>
           <span className="current-temperature-value">
             <WeatherUnit celsius={props.seeData.temp} />
