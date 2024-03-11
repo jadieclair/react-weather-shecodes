@@ -23,7 +23,7 @@ export default function Weather(props) {
               Humidity: <strong>{props.seeData.humidity}%</strong>
             </div>
             <div>
-              Wind: <strong>{props.seeData.wind}km/h</strong>
+              Wind: <strong>{Math.round(props.seeData.wind)}km/h</strong>
             </div>
           </div>
         </div>
