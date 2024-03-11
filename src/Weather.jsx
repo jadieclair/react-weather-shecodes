@@ -11,13 +11,15 @@ export default function Weather(props) {
           <h1 className="current-city" id="current-city">
             {props.seeData.city}
           </h1>
-          <CustomDate date={props.seeData.date} />
+          <div className="current-date">
+            <CustomDate date={props.seeData.date} />
+          </div>
         </div>
-        <div className="col-4 mt-3">
+        <div className="col-4">
           <div className="current-details text-capitalize">
             <br />
-            {props.seeData.description}
-            <div>
+            <div className="mb-2">{props.seeData.description}</div>
+            <div className="mb-2">
               Humidity: <strong>{props.seeData.humidity}%</strong>
             </div>
             <div>
@@ -30,7 +32,9 @@ export default function Weather(props) {
           <span className="current-temperature-icon">
             <WeatherIcon code={props.seeData.iconUrl} />
           </span>
-          <WeatherUnit celsius={props.seeData.temp} />
+          <span className="current-temperature-value">
+            <WeatherUnit celsius={props.seeData.temp} />
+          </span>
         </div>
       </div>
     </div>
