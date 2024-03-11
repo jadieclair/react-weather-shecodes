@@ -2,13 +2,14 @@ import React from "react";
 import CustomDate from "./CustomDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherUnit from "./WeatherUnit";
+import "./searchWeather.css";
 
 export default function Weather(props) {
   return (
     <div className="row">
       <div className="current-weather mt-4">
         <div className="col-4">
-          <h1 className="current-city" id="current-city">
+          <h1 className="current-city mt-4" id="current-city">
             {props.seeData.city}
           </h1>
           <div className="current-date">

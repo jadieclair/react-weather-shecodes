@@ -7,16 +7,16 @@ export default function Footer() {
       <p>
         This project was coded by
         <a
-          href="https://github.com/jadieclair"
+          href="https://www.linkedin.com/in/jade-harris-b623b9242/"
           target="_blank"
           rel="noreferrer"
         >
           {" "}
           Jade Harris,
         </a>{" "}
-        project can be found on{" "}
+        this project can be found on{" "}
         <a
-          href="https://github.com/jadieclair/react-weather-app-shecodes"
+          href="https://github.com/jadieclair/react-weather-shecodes"
           target="_blank"
           rel="noreferrer"
         >
@@ -25,7 +25,7 @@ export default function Footer() {
         </a>{" "}
         and is hosted on{" "}
         <a
-          href="https://react-weatherapp-shecodes.netlify.app/"
+          href="https://reactweather-app-shecodes.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >

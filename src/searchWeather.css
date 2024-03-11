@@ -60,8 +60,6 @@
 
 .current-temperature-icon canvas {
   position: relative;
-  font-size: 40px;
-  margin-right: 10px;
 }
 
 .current-temperature-value {
