@@ -2,11 +2,11 @@
   position: relative;
   max-width: 650px;
   min-height: 550px;
-  margin: 50px auto 10px auto;
+  margin: 30px auto 10px auto;
   padding: 30px;
   border-radius: 10px;
   background-image: url("./media/bg-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: left center;
 }

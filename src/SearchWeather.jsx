@@ -9,7 +9,8 @@ export default function SearchWeather(props) {
   const [showData, setShowData] = useState({ dataState: false });
 
   function search() {
-    const key = "6d44bd5412a31a5753bfb26cca847f85";
+    // const key = "6d44bd5412a31a5753bfb26cca847f85";
+    const key = "5f472b7acba333cd8a035ea85a0d4d4c";
     const units = "metric";
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=${units}`;
     axios.get(apiUrl).then(showWeather);
@@ -27,6 +28,7 @@ export default function SearchWeather(props) {
   function showWeather(response) {
     setShowData({
       dataState: true,
+      coordinates: response.data.coord,
       city: response.data.name,
       temp: response.data.main.temp,
       humidity: response.data.main.humidity,
@@ -52,7 +54,7 @@ export default function SearchWeather(props) {
             <input type="submit" value="Search" className="search-button" />
           </form>
           <Weather seeData={showData} />
-          <WeatherForecast />
+          <WeatherForecast coordinates={showData.coordinates} />
         </div>
       </div>
     );

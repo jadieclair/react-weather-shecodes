@@ -1,8 +1,14 @@
 .weather-forecast {
   text-align: center;
+  color: rgb(213, 214, 216);
 }
 
 .forecast-temp-min {
   opacity: 0.6;
   margin-left: 5px;
+}
+
+.daily-forecast {
+  font-size: 14px;
+  margin-left: 30px;
 }
