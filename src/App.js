@@ -1,6 +1,6 @@
 import SearchWeather from "./SearchWeather";
 import Footer from "./Footer";
-import "./app.css";
+import "./main.css";
 
 export default function App() {
   return (
